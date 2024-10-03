@@ -8,5 +8,12 @@
     "keywords": [],
     "author": "@ViorelsS",
     "license": "ISC",
-    "description": "Typescript app to help people find their bonuses"
+    "description": "Typescript app to help people find their bonuses",
+    "devDependencies": {
+        "@eslint/js": "^9.11.1",
+        "eslint": "^9.11.1",
+        "globals": "^15.10.0",
+        "ts-node": "^10.9.2",
+        "typescript-eslint": "^8.8.0"
+    }
 }
