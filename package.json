@@ -1,0 +1,12 @@
+{
+    "name": "ts_bonny",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "keywords": [],
+    "author": "@ViorelsS",
+    "license": "ISC",
+    "description": "Typescript app to help people find their bonuses"
+}
