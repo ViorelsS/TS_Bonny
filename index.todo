@@ -1,0 +1,34 @@
+# To-Do List per il Progetto TypeScript Semplificato
+
+1. Creare la struttura del progetto
+    - /src
+      - /models
+
+2. Creare le classi di supporto
+    - /src/models/User.ts
+    - /src/models/Product.ts
+
+3. Creare il file principale
+    - /src/app.ts
+
+4. Importare le classi di supporto in app.ts
+    - Importare User e Product in app.ts
+
+5. Aggiungere logica di base alle classi
+    - Definire proprietà e metodi per User e Product
+
+6. Implementare la logica in app.ts
+    - Utilizzare le classi User e Product in app.ts
+
+7. Configurare il compilatore TypeScript
+    - Creare tsconfig.json con le configurazioni necessarie
+
+8. Testare il progetto
+    - Eseguire il progetto per assicurarsi che tutto funzioni correttamente
+
+9. Documentare il codice
+    - Aggiungere commenti e documentazione per ogni classe e metodo
+
+10. Rifinire e ottimizzare il codice
+    - Migliorare la performance e la leggibilità del codice
+    - Rimuovere codice non utilizzato e fare refactoring se necessario
