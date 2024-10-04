@@ -20,6 +20,10 @@ export class Incentivo implements IIncentivo {
     }
 
     assegnaAStartup(startup: Startup): void {
-        console.log(startup.nome);
+        console.log(
+            `Incentivo ${this.id} assegnato alla startup ${startup.nome}.`
+        );
+        console.log(`Valore: ${this.valore}.`);
+        console.log(`Descrizione incentivo: ${this.descrizione}\n`);
     }
 }

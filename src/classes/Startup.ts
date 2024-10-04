@@ -21,7 +21,9 @@ export class Startup implements IStartup {
 
     riceviIncentivo(incentivo: IIncentivo): void {
         console.log(
-            `Incentivo ricevuto: ${incentivo.id}, valore: ${incentivo.valore}`
+            `La startup ${this.nome} ha ricevuto l'incentivo ${incentivo.id}.`
         );
+        console.log(`Valore: ${incentivo.valore}.`);
+        console.log(`Descrizione incentivo: ${incentivo.descrizione}\n`);
     }
 }
